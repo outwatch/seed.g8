@@ -5,7 +5,10 @@ module.exports = webDev({
   // assetsDir: "assets",
   extraStaticDirs: [
     "src" // for source maps
-  ]
+  ],
+  extraWatchDirs: [
+    "src/css",
+  ],
 });
 
 module.exports.devServer.host = "0.0.0.0";
